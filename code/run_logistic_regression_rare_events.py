@@ -4,8 +4,7 @@ import matplotlib.pyplot as plt
 from user_defined_functions import make_frequency_plot,
 
 # ~ Read in our data ~ #
-# path_to_data='/home/ryan/Downloads/creditcard.csv'
-path_to_data='C:/Users/ryanl/Downloads/creditcardfraud/creditcard.csv'
+path_to_data='path/to/data'
 df=pd.read_csv(path_to_data)
 
 # ~ Split data into dependent and indepent variables ~ #
